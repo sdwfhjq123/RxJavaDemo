@@ -23,6 +23,10 @@
         </activity>
 
         <activity android:name=".polling.PollingActivity">
+
+        </activity>
+
+        <activity android:name=".threeLevelCache.ThreeLevelCacheActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
