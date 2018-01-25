@@ -2,6 +2,8 @@ package com.yinhao.rxjavademo.register;
 
 import android.util.Log;
 
+import static android.content.ContentValues.TAG;
+
 /**
  * Created by hp on 2018/1/23.
  */
@@ -21,7 +23,6 @@ public class Translation2 {
     //定义 输出返回数据 的方法
     public void show() {
 
-        Log.d("RxJava", "翻译内容 = " + content.out);
-
+        Log.d(TAG, "show: "+content.out);
     }
 }

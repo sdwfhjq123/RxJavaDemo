@@ -11,22 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".get.TranslationActivity"></activity>
+        <activity android:name=".post.C2ETranslationActivity"></activity>
+        <activity android:name=".polling.PollingActivity"></activity>
+        <activity android:name=".threeLevelCache.ThreeLevelCacheActivity"></activity>
+        <activity android:name=".merge.MergeActivity"></activity>
+        <activity android:name=".merge.ZipAcitivity">
 
         </activity>
-        <activity android:name=".get.TranslationActivity">
-
-        </activity>
-
-        <activity android:name=".post.C2ETranslationActivity">
-
-        </activity>
-
-        <activity android:name=".polling.PollingActivity">
-
-        </activity>
-
-        <activity android:name=".threeLevelCache.ThreeLevelCacheActivity">
+        <activity android:name=".merge.CombineLatestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

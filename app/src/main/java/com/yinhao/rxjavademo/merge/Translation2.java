@@ -1,14 +1,12 @@
-package com.yinhao.rxjavademo.register;
+package com.yinhao.rxjavademo.merge;
 
 import android.util.Log;
-
-import static android.content.ContentValues.TAG;
 
 /**
  * Created by hp on 2018/1/23.
  */
 
-public class Translation1 {
+public class Translation2 {
     private int status;
     private content content;
 
@@ -21,7 +19,7 @@ public class Translation1 {
     }
 
     //定义 输出返回数据 的方法
-    public void show() {
-        Log.d(TAG, "show: "+content.out);
+    public String show() {
+        return ("第2次翻译=" + content.out);
     }
 }
