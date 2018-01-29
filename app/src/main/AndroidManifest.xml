@@ -17,15 +17,19 @@
         <activity android:name=".polling.PollingActivity" />
         <activity android:name=".threeLevelCache.ThreeLevelCacheActivity" />
         <activity android:name=".merge.MergeActivity" />
-        <activity android:name=".merge.ZipAcitivity"></activity>
-        <activity android:name=".merge.CombineLatestActivity">
+        <activity android:name=".merge.ZipAcitivity" />
+        <activity android:name=".merge.CombineLatestActivity" />
+        <activity android:name=".retry.RetryInternetActivity"></activity>
+        <activity android:name=".throttle.ThrottleActivity">
+
+        </activity>
+        <activity android:name=".filter.FilterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".retry.RetryInternetActivity"></activity>
     </application>
 
 </manifest>
